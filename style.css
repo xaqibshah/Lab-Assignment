@@ -1,0 +1,93 @@
+body {
+background-image: url("bg.jpg");
+}
+
+#content{
+width : 800px;
+height: 100%;
+margin: auto;
+background-color: white;
+margin-top: 100px;
+border-top-right-radius:  25px;
+border-top-left-radius: 25px;
+}
+
+.clear {
+    clear: both;
+}
+
+ul li {
+    list-style: none;
+    display: inline;
+    
+}
+
+
+ul {
+    margin-right: 90px;
+}
+
+li img {
+    width: 40px;
+    height: 25px;
+    float: right;
+    margin: 10px 10px 0px 10px;
+
+    
+}
+
+li a img:hover {
+    width: 50px;
+    height: 28px;
+}
+
+#img {
+    width: 750px;
+    height: 150px;
+    margin: 20px 25px 0px 25px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+ ul .heading{
+    margin: 40px 0px 0px 0px;
+}
+
+p {
+    margin: 0px 25px;
+    border-bottom: 1px solid pink;
+    color: pink;
+}
+
+
+#border {
+    float: right;
+    margin: 20px 90px 20px 90px;
+    background-image: url("bg.jpg");
+    width: 240px;
+
+}
+
+#border img {
+    margin: 8px 20px;
+    width: 200px;
+    border: 1px solid white;
+}
+
+ #b2 {
+    margin: 20px 90px 20px 90px;
+    background-image: url("bg.jpg");
+    width: 240px;
+}
+#b2 img {
+    margin: 8px 20px 0px 20px;
+    width: 200px;
+    border: 1px solid white;
+}
+
+.visible {
+    visibility: hidden;
+}
+
+.visible:hover {
+    visibility: visible;
+}
